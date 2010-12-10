@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		8802F38F12A1C77800EB4FE7 /* NSIndexPath+JAListViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8802F38E12A1C77800EB4FE7 /* NSIndexPath+JAListViewExtensions.m */; };
-		8842256E12AD68A000A4B4D9 /* JAObjectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8842256D12AD68A000A4B4D9 /* JAObjectListView.m */; };
-		885CF18412A044B70069C4CF /* JASectionedListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885CF18312A044B70069C4CF /* JASectionedListView.m */; };
 		885CF59012A0B2060069C4CF /* DemoSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 885CF58E12A0B2060069C4CF /* DemoSectionView.m */; };
 		885CF59112A0B2060069C4CF /* DemoSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885CF58F12A0B2060069C4CF /* DemoSectionView.xib */; };
+		88879A3812B2F022006A9135 /* JAListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88879A2F12B2F022006A9135 /* JAListView.m */; };
+		88879A3912B2F022006A9135 /* JAListViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88879A3112B2F022006A9135 /* JAListViewItem.m */; };
+		88879A3A12B2F022006A9135 /* JAObjectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88879A3312B2F022006A9135 /* JAObjectListView.m */; };
+		88879A3B12B2F022006A9135 /* JASectionedListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88879A3512B2F022006A9135 /* JASectionedListView.m */; };
+		88879A3C12B2F022006A9135 /* NSIndexPath+JAListViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88879A3712B2F022006A9135 /* NSIndexPath+JAListViewExtensions.m */; };
 		88E324D3129C864200CD3310 /* DemoAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E324D2129C864200CD3310 /* DemoAppAppDelegate.m */; };
 		88E324F0129C879500CD3310 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E324EF129C879500CD3310 /* DemoView.m */; };
-		88E324FB129C87D100CD3310 /* JAListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E324F9129C87D100CD3310 /* JAListView.m */; };
-		88E324FC129C87D100CD3310 /* JAListViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E324FA129C87D100CD3310 /* JAListViewItem.m */; };
 		88E32558129C899000CD3310 /* DemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E32557129C899000CD3310 /* DemoView.xib */; };
 		88E32667129C8E7A00CD3310 /* JAAnimatingContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E32664129C8E7A00CD3310 /* JAAnimatingContainer.m */; };
 		88E32668129C8E7A00CD3310 /* JABorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E32666129C8E7A00CD3310 /* JABorderlessWindow.m */; };
@@ -35,23 +35,23 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		8802F38D12A1C77800EB4FE7 /* NSIndexPath+JAListViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+JAListViewExtensions.h"; path = "../../Documents/Development/Cocoa/JAListView/NSIndexPath+JAListViewExtensions.h"; sourceTree = SOURCE_ROOT; };
-		8802F38E12A1C77800EB4FE7 /* NSIndexPath+JAListViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+JAListViewExtensions.m"; path = "../../Documents/Development/Cocoa/JAListView/NSIndexPath+JAListViewExtensions.m"; sourceTree = SOURCE_ROOT; };
-		8842256C12AD68A000A4B4D9 /* JAObjectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAObjectListView.h; path = ../../Documents/Development/Cocoa/JAListView/JAObjectListView.h; sourceTree = SOURCE_ROOT; };
-		8842256D12AD68A000A4B4D9 /* JAObjectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAObjectListView.m; path = ../../Documents/Development/Cocoa/JAListView/JAObjectListView.m; sourceTree = SOURCE_ROOT; };
-		885CF18212A044B70069C4CF /* JASectionedListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASectionedListView.h; path = ../../Documents/Development/Cocoa/JAListView/JASectionedListView.h; sourceTree = SOURCE_ROOT; };
-		885CF18312A044B70069C4CF /* JASectionedListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASectionedListView.m; path = ../../Documents/Development/Cocoa/JAListView/JASectionedListView.m; sourceTree = SOURCE_ROOT; };
 		885CF58D12A0B2060069C4CF /* DemoSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoSectionView.h; path = Classes/DemoSectionView.h; sourceTree = "<group>"; };
 		885CF58E12A0B2060069C4CF /* DemoSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoSectionView.m; path = Classes/DemoSectionView.m; sourceTree = "<group>"; };
 		885CF58F12A0B2060069C4CF /* DemoSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DemoSectionView.xib; path = Classes/DemoSectionView.xib; sourceTree = "<group>"; };
+		88879A2E12B2F022006A9135 /* JAListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAListView.h; path = JAListView/JAListView.h; sourceTree = "<group>"; };
+		88879A2F12B2F022006A9135 /* JAListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAListView.m; path = JAListView/JAListView.m; sourceTree = "<group>"; };
+		88879A3012B2F022006A9135 /* JAListViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAListViewItem.h; path = JAListView/JAListViewItem.h; sourceTree = "<group>"; };
+		88879A3112B2F022006A9135 /* JAListViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAListViewItem.m; path = JAListView/JAListViewItem.m; sourceTree = "<group>"; };
+		88879A3212B2F022006A9135 /* JAObjectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAObjectListView.h; path = JAListView/JAObjectListView.h; sourceTree = "<group>"; };
+		88879A3312B2F022006A9135 /* JAObjectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAObjectListView.m; path = JAListView/JAObjectListView.m; sourceTree = "<group>"; };
+		88879A3412B2F022006A9135 /* JASectionedListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASectionedListView.h; path = JAListView/JASectionedListView.h; sourceTree = "<group>"; };
+		88879A3512B2F022006A9135 /* JASectionedListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASectionedListView.m; path = JAListView/JASectionedListView.m; sourceTree = "<group>"; };
+		88879A3612B2F022006A9135 /* NSIndexPath+JAListViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+JAListViewExtensions.h"; path = "JAListView/NSIndexPath+JAListViewExtensions.h"; sourceTree = "<group>"; };
+		88879A3712B2F022006A9135 /* NSIndexPath+JAListViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+JAListViewExtensions.m"; path = "JAListView/NSIndexPath+JAListViewExtensions.m"; sourceTree = "<group>"; };
 		88E324D1129C864200CD3310 /* DemoAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoAppAppDelegate.h; path = Classes/DemoAppAppDelegate.h; sourceTree = "<group>"; };
 		88E324D2129C864200CD3310 /* DemoAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoAppAppDelegate.m; path = Classes/DemoAppAppDelegate.m; sourceTree = "<group>"; };
-		88E324EB129C876300CD3310 /* JAListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAListView.h; path = ../../Documents/Development/Cocoa/JAListView/JAListView.h; sourceTree = SOURCE_ROOT; };
-		88E324EC129C876300CD3310 /* JAListViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAListViewItem.h; path = ../../Documents/Development/Cocoa/JAListView/JAListViewItem.h; sourceTree = SOURCE_ROOT; };
 		88E324EE129C879500CD3310 /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoView.h; path = Classes/DemoView.h; sourceTree = "<group>"; };
 		88E324EF129C879500CD3310 /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoView.m; path = Classes/DemoView.m; sourceTree = "<group>"; };
-		88E324F9129C87D100CD3310 /* JAListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAListView.m; path = ../../Documents/Development/Cocoa/JAListView/JAListView.m; sourceTree = SOURCE_ROOT; };
-		88E324FA129C87D100CD3310 /* JAListViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAListViewItem.m; path = ../../Documents/Development/Cocoa/JAListView/JAListViewItem.m; sourceTree = SOURCE_ROOT; };
 		88E32557129C899000CD3310 /* DemoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DemoView.xib; path = Classes/DemoView.xib; sourceTree = "<group>"; };
 		88E32663129C8E7A00CD3310 /* JAAnimatingContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAAnimatingContainer.h; path = Classes/JAAnimatingContainer.h; sourceTree = "<group>"; };
 		88E32664129C8E7A00CD3310 /* JAAnimatingContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAAnimatingContainer.m; path = Classes/JAAnimatingContainer.m; sourceTree = "<group>"; };
@@ -78,6 +78,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				88879A3E12B2F02A006A9135 /* JAAnimatingContainer */,
 				88E324EE129C879500CD3310 /* DemoView.h */,
 				88E324EF129C879500CD3310 /* DemoView.m */,
 				88E32557129C899000CD3310 /* DemoView.xib */,
@@ -133,20 +134,16 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				88E32663129C8E7A00CD3310 /* JAAnimatingContainer.h */,
-				88E32664129C8E7A00CD3310 /* JAAnimatingContainer.m */,
-				88E32665129C8E7A00CD3310 /* JABorderlessWindow.h */,
-				88E32666129C8E7A00CD3310 /* JABorderlessWindow.m */,
-				88E324EB129C876300CD3310 /* JAListView.h */,
-				88E324F9129C87D100CD3310 /* JAListView.m */,
-				885CF18212A044B70069C4CF /* JASectionedListView.h */,
-				885CF18312A044B70069C4CF /* JASectionedListView.m */,
-				8842256C12AD68A000A4B4D9 /* JAObjectListView.h */,
-				8842256D12AD68A000A4B4D9 /* JAObjectListView.m */,
-				88E324EC129C876300CD3310 /* JAListViewItem.h */,
-				88E324FA129C87D100CD3310 /* JAListViewItem.m */,
-				8802F38D12A1C77800EB4FE7 /* NSIndexPath+JAListViewExtensions.h */,
-				8802F38E12A1C77800EB4FE7 /* NSIndexPath+JAListViewExtensions.m */,
+				88879A2E12B2F022006A9135 /* JAListView.h */,
+				88879A2F12B2F022006A9135 /* JAListView.m */,
+				88879A3012B2F022006A9135 /* JAListViewItem.h */,
+				88879A3112B2F022006A9135 /* JAListViewItem.m */,
+				88879A3212B2F022006A9135 /* JAObjectListView.h */,
+				88879A3312B2F022006A9135 /* JAObjectListView.m */,
+				88879A3412B2F022006A9135 /* JASectionedListView.h */,
+				88879A3512B2F022006A9135 /* JASectionedListView.m */,
+				88879A3612B2F022006A9135 /* NSIndexPath+JAListViewExtensions.h */,
+				88879A3712B2F022006A9135 /* NSIndexPath+JAListViewExtensions.m */,
 				256AC3F00F4B6AF500CF3369 /* DemoApp_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -169,6 +166,17 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88879A3E12B2F02A006A9135 /* JAAnimatingContainer */ = {
+			isa = PBXGroup;
+			children = (
+				88E32663129C8E7A00CD3310 /* JAAnimatingContainer.h */,
+				88E32664129C8E7A00CD3310 /* JAAnimatingContainer.m */,
+				88E32665129C8E7A00CD3310 /* JABorderlessWindow.h */,
+				88E32666129C8E7A00CD3310 /* JABorderlessWindow.m */,
+			);
+			name = JAAnimatingContainer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,14 +246,14 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				88E324D3129C864200CD3310 /* DemoAppAppDelegate.m in Sources */,
 				88E324F0129C879500CD3310 /* DemoView.m in Sources */,
-				88E324FB129C87D100CD3310 /* JAListView.m in Sources */,
-				88E324FC129C87D100CD3310 /* JAListViewItem.m in Sources */,
 				88E32667129C8E7A00CD3310 /* JAAnimatingContainer.m in Sources */,
 				88E32668129C8E7A00CD3310 /* JABorderlessWindow.m in Sources */,
-				885CF18412A044B70069C4CF /* JASectionedListView.m in Sources */,
 				885CF59012A0B2060069C4CF /* DemoSectionView.m in Sources */,
-				8802F38F12A1C77800EB4FE7 /* NSIndexPath+JAListViewExtensions.m in Sources */,
-				8842256E12AD68A000A4B4D9 /* JAObjectListView.m in Sources */,
+				88879A3812B2F022006A9135 /* JAListView.m in Sources */,
+				88879A3912B2F022006A9135 /* JAListViewItem.m in Sources */,
+				88879A3A12B2F022006A9135 /* JAObjectListView.m in Sources */,
+				88879A3B12B2F022006A9135 /* JASectionedListView.m in Sources */,
+				88879A3C12B2F022006A9135 /* NSIndexPath+JAListViewExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
